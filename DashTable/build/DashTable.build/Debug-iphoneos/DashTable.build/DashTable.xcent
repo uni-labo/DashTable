@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>6W2B7D4KQQ.com.yourcompany.DashTable</string>
+	<key>com.apple.developer.ubiquity-container-identifiers</key>
+	<array>
+		<string>R7YS4DR5QU.*</string>
+	</array>
+	<key>com.apple.developer.ubiquity-kvstore-identifier</key>
+	<string>R7YS4DR5QU.*</string>
+	<key>get-task-allow</key>
+	<true/>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>6W2B7D4KQQ.com.yourcompany.DashTable</string>
+	</array>
+</dict>
+</plist>

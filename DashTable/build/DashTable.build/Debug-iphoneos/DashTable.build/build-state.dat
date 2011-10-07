@@ -1,0 +1,435 @@
+TDashTable
+v7
+r0
+t338270444.746577
+cCheck dependencies
+cCpResource build/Debug-iphoneos/DashTable.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app/Info.plist DashTable-Info.plist
+cCompileXIB /Users/b2b_dev/Desktop/TeamK/DashTable/MainWindow.xib
+cCompileXIB /Users/b2b_dev/Desktop/TeamK/DashTable/RootViewController.xib
+cProcessPCH /var/folders/UU/UUHRIcxdEtWdJxMDEnnmD++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DashTable_Prefix-cfumilgegaowlhazmfytkngpwpey/DashTable_Prefix.pch.gch DashTable_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/UU/UUHRIcxdEtWdJxMDEnnmD++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DashTable_Prefix-ghzfijaopfkrakdvklrmvhilkqdo/DashTable_Prefix.pch.gch DashTable_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv6/main.o /Users/b2b_dev/Desktop/TeamK/DashTable/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv6/DashTableAppDelegate.o /Users/b2b_dev/Desktop/TeamK/DashTable/Classes/DashTableAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv6/RootViewController.o /Users/b2b_dev/Desktop/TeamK/DashTable/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv7/main.o /Users/b2b_dev/Desktop/TeamK/DashTable/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv6/DashTable normal armv6
+cCompileC build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv7/DashTableAppDelegate.o /Users/b2b_dev/Desktop/TeamK/DashTable/Classes/DashTableAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv7/RootViewController.o /Users/b2b_dev/Desktop/TeamK/DashTable/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv7/DashTable normal armv7
+cCreateUniversalBinary /Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app/DashTable normal "armv6 armv7"
+cGenerateDSYMFile /Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app.dSYM /Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app/DashTable
+cProcessProductPackaging "/Users/b2b_dev/Library/MobileDevice/Provisioning Profiles/8D791AC3-ED98-47F9-823B-205882BFFB44.mobileprovision" /Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app/embedded.mobileprovision
+cTouch /Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable.xcent
+cCodeSign /Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004D7401890000000000000110
+t1299448201
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+c000000004D4F6A4700000000000001A7
+t1297050183
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54D18C00000000003532A0
+t1297404300
+s3486368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54D1F500000000003E22F0
+t1297404405
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5A28AB0000000000000AA1
+t1297754283
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5A292A0000000000CA2AE0
+t1297754410
+s13249248
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/Availability.h
+c000000004D4F74C20000000000001B19
+t1297052866
+s6937
+
+N/Users/b2b_dev/Desktop/TeamK/DashTable/Classes/DashTableAppDelegate.h
+c000000004E79616800000000000001D2
+t1316577640
+s466
+i<UIKit/UIKit.h>
+
+N/Users/b2b_dev/Desktop/TeamK/DashTable/Classes/DashTableAppDelegate.m
+c000000004E7961680000000000000AC0
+t1316577640
+s2752
+i"DashTableAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/b2b_dev/Desktop/TeamK/DashTable/Classes/RootViewController.h
+c000000004E79616800000000000000E6
+t1316577640
+s230
+i<UIKit/UIKit.h>
+
+N/Users/b2b_dev/Desktop/TeamK/DashTable/Classes/RootViewController.m
+c000000004E79616800000000000010BE
+t1316577640
+s4286
+i"RootViewController.h"
+
+N/Users/b2b_dev/Desktop/TeamK/DashTable/DashTable_Prefix.pch
+c000000004E7961680000000000000144
+t1316577640
+s324
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/b2b_dev/Desktop/TeamK/DashTable/MainWindow.xib
+c000000004E7961680000000000005FFC
+t1316577640
+s24572
+
+N/Users/b2b_dev/Desktop/TeamK/DashTable/RootViewController.xib
+c000000004E7961680000000000004454
+t1316577640
+s17492
+
+N/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable.xcent
+t1316577644
+s629
+
+N/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv6/DashTable
+t1316577644
+s18100
+
+N/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv6/DashTable.LinkFileList
+c000000004E79616A0000000000000186
+t1316577642
+s390
+
+N/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv6/DashTableAppDelegate.o
+t1316577644
+s52512
+
+N/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv6/RootViewController.o
+t1316577644
+s41248
+
+N/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv6/main.o
+t1316577644
+s6448
+
+N/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv7/DashTable
+t1316577644
+s18240
+
+N/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv7/DashTable.LinkFileList
+c000000004E79616A0000000000000186
+t1316577642
+s390
+
+N/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv7/DashTableAppDelegate.o
+t1316577644
+s52400
+
+N/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv7/RootViewController.o
+t1316577644
+s41188
+
+N/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv7/main.o
+t1316577644
+s6432
+
+N/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app
+t1316577644
+s374
+
+N/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app.dSYM
+t1316577644
+s102
+
+N/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app/DashTable
+t1316577644
+s53024
+
+N/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app/Info.plist
+t1316577642
+s847
+
+N/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app/MainWindow.nib
+t1316577643
+s2458
+
+N/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app/PkgInfo
+t1316577642
+s8
+
+N/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app/ResourceRules.plist
+t1316577642
+s485
+
+N/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app/RootViewController.nib
+t1316577643
+s1518
+
+N/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app/embedded.mobileprovision
+t1316577644
+s8540
+
+N/Users/b2b_dev/Desktop/TeamK/DashTable/main.m
+c000000004E7961680000000000000164
+t1316577640
+s356
+i<UIKit/UIKit.h>
+
+N/Users/b2b_dev/Library/MobileDevice/Provisioning Profiles/8D791AC3-ED98-47F9-823B-205882BFFB44.mobileprovision
+c000000004E66FA8A000000000000215C
+t1315371658
+s8540
+
+N/var/folders/UU/UUHRIcxdEtWdJxMDEnnmD++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DashTable_Prefix-cfumilgegaowlhazmfytkngpwpey/DashTable_Prefix.pch.gch
+t1316577644
+s10184604
+
+N/var/folders/UU/UUHRIcxdEtWdJxMDEnnmD++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DashTable_Prefix-ghzfijaopfkrakdvklrmvhilkqdo/DashTable_Prefix.pch.gch
+t1316577644
+s10647452
+
+NDashTable-Info.plist
+c000000004E796168000000000000038D
+t1316577640
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies338270442#338270442#0(0"0(0#1#0"28429436510666848#0"0#
+
+CCodeSign /Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app
+s338270444.570660
+e338270444.746535
+r1
+xCodeSign
+x/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app
+lSLF07#2@43"CodeSign build/Debug-iphoneos/DashTable.app338270444#338270444#0(0"0(0#0#73"/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app8610423392#660"    cd /Users/b2b_dev/Desktop/TeamK/DashTable    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: MASATO HACHIYA (3PLYGRFXL5)" --resource-rules=/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app/ResourceRules.plist --entitlements /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable.xcent /Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app0#
+
+CCompileC build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv6/DashTableAppDelegate.o /Users/b2b_dev/Desktop/TeamK/DashTable/Classes/DashTableAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338270444.242980
+e338270444.331993
+r1
+xCompileC
+xbuild/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv6/DashTableAppDelegate.o
+x/Users/b2b_dev/Desktop/TeamK/DashTable/Classes/DashTableAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/b2b_dev/Desktop/TeamK/DashTable/Classes/DashTableAppDelegate.m338270444#338270444#0(0"0(0#0#69"/Users/b2b_dev/Desktop/TeamK/DashTable/Classes/DashTableAppDelegate.m8610982720#1804"    cd /Users/b2b_dev/Desktop/TeamK/DashTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable-generated-files.hmap -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable-own-target-headers.hmap -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable-all-target-headers.hmap -iquote /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable-project-headers.hmap -F/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/include -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DerivedSources/armv6 -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DerivedSources -include /var/folders/UU/UUHRIcxdEtWdJxMDEnnmD++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DashTable_Prefix-cfumilgegaowlhazmfytkngpwpey/DashTable_Prefix.pch -c /Users/b2b_dev/Desktop/TeamK/DashTable/Classes/DashTableAppDelegate.m -o /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv6/DashTableAppDelegate.o0#
+
+CCompileC build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv6/RootViewController.o /Users/b2b_dev/Desktop/TeamK/DashTable/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338270444.299870
+e338270444.365181
+r1
+xCompileC
+xbuild/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv6/RootViewController.o
+x/Users/b2b_dev/Desktop/TeamK/DashTable/Classes/RootViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/b2b_dev/Desktop/TeamK/DashTable/Classes/RootViewController.m338270444#338270444#0(0"0(0#0#67"/Users/b2b_dev/Desktop/TeamK/DashTable/Classes/RootViewController.m8610798496#1800"    cd /Users/b2b_dev/Desktop/TeamK/DashTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable-generated-files.hmap -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable-own-target-headers.hmap -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable-all-target-headers.hmap -iquote /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable-project-headers.hmap -F/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/include -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DerivedSources/armv6 -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DerivedSources -include /var/folders/UU/UUHRIcxdEtWdJxMDEnnmD++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DashTable_Prefix-cfumilgegaowlhazmfytkngpwpey/DashTable_Prefix.pch -c /Users/b2b_dev/Desktop/TeamK/DashTable/Classes/RootViewController.m -o /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv6/RootViewController.o0#
+
+CCompileC build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv6/main.o /Users/b2b_dev/Desktop/TeamK/DashTable/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338270444.242153
+e338270444.299784
+r1
+xCompileC
+xbuild/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv6/main.o
+x/Users/b2b_dev/Desktop/TeamK/DashTable/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/b2b_dev/Desktop/TeamK/DashTable/main.m338270444#338270444#0(0"0(0#0#45"/Users/b2b_dev/Desktop/TeamK/DashTable/main.m8611167808#1764"    cd /Users/b2b_dev/Desktop/TeamK/DashTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable-generated-files.hmap -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable-own-target-headers.hmap -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable-all-target-headers.hmap -iquote /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable-project-headers.hmap -F/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/include -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DerivedSources/armv6 -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DerivedSources -include /var/folders/UU/UUHRIcxdEtWdJxMDEnnmD++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DashTable_Prefix-cfumilgegaowlhazmfytkngpwpey/DashTable_Prefix.pch -c /Users/b2b_dev/Desktop/TeamK/DashTable/main.m -o /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv7/DashTableAppDelegate.o /Users/b2b_dev/Desktop/TeamK/DashTable/Classes/DashTableAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338270444.404488
+e338270444.472632
+r1
+xCompileC
+xbuild/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv7/DashTableAppDelegate.o
+x/Users/b2b_dev/Desktop/TeamK/DashTable/Classes/DashTableAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/b2b_dev/Desktop/TeamK/DashTable/Classes/DashTableAppDelegate.m338270444#338270444#0(0"0(0#0#69"/Users/b2b_dev/Desktop/TeamK/DashTable/Classes/DashTableAppDelegate.m8609648672#1804"    cd /Users/b2b_dev/Desktop/TeamK/DashTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable-generated-files.hmap -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable-own-target-headers.hmap -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable-all-target-headers.hmap -iquote /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable-project-headers.hmap -F/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/include -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DerivedSources/armv7 -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DerivedSources -include /var/folders/UU/UUHRIcxdEtWdJxMDEnnmD++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DashTable_Prefix-ghzfijaopfkrakdvklrmvhilkqdo/DashTable_Prefix.pch -c /Users/b2b_dev/Desktop/TeamK/DashTable/Classes/DashTableAppDelegate.m -o /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv7/DashTableAppDelegate.o0#
+
+CCompileC build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv7/RootViewController.o /Users/b2b_dev/Desktop/TeamK/DashTable/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338270444.431922
+e338270444.493205
+r1
+xCompileC
+xbuild/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv7/RootViewController.o
+x/Users/b2b_dev/Desktop/TeamK/DashTable/Classes/RootViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/b2b_dev/Desktop/TeamK/DashTable/Classes/RootViewController.m338270444#338270444#0(0"0(0#0#67"/Users/b2b_dev/Desktop/TeamK/DashTable/Classes/RootViewController.m8609588320#1800"    cd /Users/b2b_dev/Desktop/TeamK/DashTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable-generated-files.hmap -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable-own-target-headers.hmap -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable-all-target-headers.hmap -iquote /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable-project-headers.hmap -F/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/include -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DerivedSources/armv7 -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DerivedSources -include /var/folders/UU/UUHRIcxdEtWdJxMDEnnmD++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DashTable_Prefix-ghzfijaopfkrakdvklrmvhilkqdo/DashTable_Prefix.pch -c /Users/b2b_dev/Desktop/TeamK/DashTable/Classes/RootViewController.m -o /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv7/RootViewController.o0#
+
+CCompileC build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv7/main.o /Users/b2b_dev/Desktop/TeamK/DashTable/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338270444.332088
+e338270444.404331
+r1
+xCompileC
+xbuild/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv7/main.o
+x/Users/b2b_dev/Desktop/TeamK/DashTable/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/b2b_dev/Desktop/TeamK/DashTable/main.m338270444#338270444#0(0"0(0#0#45"/Users/b2b_dev/Desktop/TeamK/DashTable/main.m8610380960#1764"    cd /Users/b2b_dev/Desktop/TeamK/DashTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable-generated-files.hmap -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable-own-target-headers.hmap -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable-all-target-headers.hmap -iquote /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable-project-headers.hmap -F/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/include -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DerivedSources/armv7 -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DerivedSources -include /var/folders/UU/UUHRIcxdEtWdJxMDEnnmD++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DashTable_Prefix-ghzfijaopfkrakdvklrmvhilkqdo/DashTable_Prefix.pch -c /Users/b2b_dev/Desktop/TeamK/DashTable/main.m -o /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/b2b_dev/Desktop/TeamK/DashTable/MainWindow.xib
+s338270442.913888
+e338270443.471655
+r1
+xCompileXIB
+x/Users/b2b_dev/Desktop/TeamK/DashTable/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib338270442#338270443#0(0"0(0#0#53"/Users/b2b_dev/Desktop/TeamK/DashTable/MainWindow.xib8611818016#544"    cd /Users/b2b_dev/Desktop/TeamK/DashTable    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app/MainWindow.nib /Users/b2b_dev/Desktop/TeamK/DashTable/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/b2b_dev/Desktop/TeamK/DashTable/RootViewController.xib
+s338270442.915580
+e338270443.384315
+r1
+xCompileXIB
+x/Users/b2b_dev/Desktop/TeamK/DashTable/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib338270442#338270443#0(0"0(0#0#61"/Users/b2b_dev/Desktop/TeamK/DashTable/RootViewController.xib8611681344#560"    cd /Users/b2b_dev/Desktop/TeamK/DashTable    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app/RootViewController.nib /Users/b2b_dev/Desktop/TeamK/DashTable/RootViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCpResource build/Debug-iphoneos/DashTable.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+s338270442.901530
+e338270442.913652
+r1
+xCpResource
+xbuild/Debug-iphoneos/DashTable.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist338270442#338270442#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist8307809061684012032#496"    cd /Users/b2b_dev/Desktop/TeamK/DashTable    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist /Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app0#
+
+CCreateUniversalBinary /Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app/DashTable normal "armv6 armv7"
+s338270444.518690
+e338270444.521264
+r1
+xCreateUniversalBinary
+x/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app/DashTable
+xnormal
+xarmv6 armv7
+lSLF07#2@87"CreateUniversalBinary build/Debug-iphoneos/DashTable.app/DashTable normal "armv6 armv7"338270444#338270444#0(0"0(0#0#50"/Users/b2b_dev/Desktop/TeamK/DashTable/armv6 armv78609265472#534"    cd /Users/b2b_dev/Desktop/TeamK/DashTable    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv6/DashTable /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv7/DashTable -output /Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app/DashTable0#
+
+CGenerateDSYMFile /Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app.dSYM /Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app/DashTable
+s338270444.521333
+e338270444.546968
+r1
+xGenerateDSYMFile
+x/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app.dSYM
+x/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app/DashTable
+lSLF07#2@101"GenerateDSYMFile build/Debug-iphoneos/DashTable.app.dSYM build/Debug-iphoneos/DashTable.app/DashTable338270444#338270444#0(0"0(0#0#83"/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app/DashTable8608917568#368"    cd /Users/b2b_dev/Desktop/TeamK/DashTable    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app/DashTable -o /Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app.dSYM0#
+
+CLd /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv6/DashTable normal armv6
+s338270444.365266
+e338270444.431832
+r1
+xLd
+x/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv6/DashTable
+xnormal
+xarmv6
+lSLF07#2@127"Link /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv6/DashTable338270444#338270444#0(0"0(0#0#0"8610128768#871"    cd /Users/b2b_dev/Desktop/TeamK/DashTable    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos -F/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos -filelist /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv6/DashTable.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv6/DashTable0#
+
+CLd /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv7/DashTable normal armv7
+s338270444.493272
+e338270444.518602
+r1
+xLd
+x/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv7/DashTable
+xnormal
+xarmv7
+lSLF07#2@127"Link /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv7/DashTable338270444#338270444#0(0"0(0#0#0"8609494624#871"    cd /Users/b2b_dev/Desktop/TeamK/DashTable    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos -F/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos -filelist /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv7/DashTable.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/Objects-normal/armv7/DashTable0#
+
+CProcessInfoPlistFile /Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app/Info.plist DashTable-Info.plist
+s338270442.906363
+e338270442.909369
+r1
+xProcessInfoPlistFile
+x/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app/Info.plist
+xDashTable-Info.plist
+lSLF07#2@28"Process DashTable-Info.plist338270442#338270442#0(0"0(0#0#59"/Users/b2b_dev/Desktop/TeamK/DashTable/DashTable-Info.plist8610437632#570"    cd /Users/b2b_dev/Desktop/TeamK/DashTable    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility DashTable-Info.plist -genpkginfo /Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app/ResourceRules.plist -o /Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app/Info.plist0#
+
+CProcessPCH /var/folders/UU/UUHRIcxdEtWdJxMDEnnmD++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DashTable_Prefix-cfumilgegaowlhazmfytkngpwpey/DashTable_Prefix.pch.gch DashTable_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338270443.471788
+e338270444.155598
+r1
+xProcessPCH
+x/var/folders/UU/UUHRIcxdEtWdJxMDEnnmD++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DashTable_Prefix-cfumilgegaowlhazmfytkngpwpey/DashTable_Prefix.pch.gch
+xDashTable_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile DashTable_Prefix.pch338270443#338270444#0(0"0(0#0#59"/Users/b2b_dev/Desktop/TeamK/DashTable/DashTable_Prefix.pch6874019576046446592#1660"    cd /Users/b2b_dev/Desktop/TeamK/DashTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable-generated-files.hmap -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable-own-target-headers.hmap -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable-all-target-headers.hmap -iquote /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable-project-headers.hmap -F/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/include -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DerivedSources/armv6 -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DerivedSources -c /Users/b2b_dev/Desktop/TeamK/DashTable/DashTable_Prefix.pch -o /var/folders/UU/UUHRIcxdEtWdJxMDEnnmD++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DashTable_Prefix-cfumilgegaowlhazmfytkngpwpey/DashTable_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/UU/UUHRIcxdEtWdJxMDEnnmD++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DashTable_Prefix-ghzfijaopfkrakdvklrmvhilkqdo/DashTable_Prefix.pch.gch DashTable_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338270443.472937
+e338270444.242066
+r1
+xProcessPCH
+x/var/folders/UU/UUHRIcxdEtWdJxMDEnnmD++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DashTable_Prefix-ghzfijaopfkrakdvklrmvhilkqdo/DashTable_Prefix.pch.gch
+xDashTable_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile DashTable_Prefix.pch338270443#338270444#0(0"0(0#0#59"/Users/b2b_dev/Desktop/TeamK/DashTable/DashTable_Prefix.pch8611005472#1660"    cd /Users/b2b_dev/Desktop/TeamK/DashTable    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable-generated-files.hmap -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable-own-target-headers.hmap -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable-all-target-headers.hmap -iquote /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable-project-headers.hmap -F/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/include -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DerivedSources/armv7 -I/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DerivedSources -c /Users/b2b_dev/Desktop/TeamK/DashTable/DashTable_Prefix.pch -o /var/folders/UU/UUHRIcxdEtWdJxMDEnnmD++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DashTable_Prefix-ghzfijaopfkrakdvklrmvhilkqdo/DashTable_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/b2b_dev/Library/MobileDevice/Provisioning Profiles/8D791AC3-ED98-47F9-823B-205882BFFB44.mobileprovision" /Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app/embedded.mobileprovision
+s338270444.547052
+e338270444.548164
+r1
+xProcessProductPackaging
+x/Users/b2b_dev/Library/MobileDevice/Provisioning Profiles/8D791AC3-ED98-47F9-823B-205882BFFB44.mobileprovision
+x/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app/embedded.mobileprovision
+lSLF07#2@196"ProcessProductPackaging "/Users/b2b_dev/Library/MobileDevice/Provisioning Profiles/8D791AC3-ED98-47F9-823B-205882BFFB44.mobileprovision" build/Debug-iphoneos/DashTable.app/embedded.mobileprovision338270444#338270444#0(0"0(0#0#98"/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app/embedded.mobileprovision8611514784#427"    cd /Users/b2b_dev/Desktop/TeamK/DashTable    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/b2b_dev/Library/MobileDevice/Provisioning Profiles/8D791AC3-ED98-47F9-823B-205882BFFB44.mobileprovision" -o /Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable.xcent
+s338270444.550626
+e338270444.570548
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+x/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable.xcent
+lSLF07#2@181"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable.xcent338270444#338270444#0(0"0(0#0#107"/Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable.xcent8610799872#438"    cd /Users/b2b_dev/Desktop/TeamK/DashTable    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist -entitlements -format xml -o /Users/b2b_dev/Desktop/TeamK/DashTable/build/DashTable.build/Debug-iphoneos/DashTable.build/DashTable.xcent0#
+
+CTouch /Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app
+s338270444.548211
+e338270444.550556
+r1
+xTouch
+x/Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app
+lSLF07#2@79"Touch /Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app338270444#338270444#0(0"0(0#0#0"8611200256#266"    cd /Users/b2b_dev/Desktop/TeamK/DashTable    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/b2b_dev/Desktop/TeamK/DashTable/build/Debug-iphoneos/DashTable.app0#
+
